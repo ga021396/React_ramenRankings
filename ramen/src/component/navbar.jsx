@@ -1,14 +1,12 @@
-import React from 'react';
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
-export function Navbar(){
-    const Root = styled.div`
-        height:100px;
-        width:100px;
-        background:pink;
-    `;
+export function Navbar() {
+  const Root = styled.div`
+    height: 80px;
+    width: 100vw;
+    background: pink;
+  `;
 
-    return(
-        <Root>hello</Root>
-    )
+  return <Root>hello</Root>;
 }

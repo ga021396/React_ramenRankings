@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import styled from "styled-components";
 import { Navbar } from "./component/navbar";
 
 class App extends Component {
