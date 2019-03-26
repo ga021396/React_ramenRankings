@@ -1,14 +1,10 @@
 import React, { Component } from "react";
-import "./App.css";
-import { Navbar } from "./component/navbar";
+import "./App.scss";
+import { ProductGallery } from "./component/productGallery";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <Navbar />
-      </div>
-    );
+    return <ProductGallery />;
   }
 }
 
